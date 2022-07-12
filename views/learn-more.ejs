@@ -1,0 +1,268 @@
+
+<%- include("partials/header"); -%>
+<script type="module" src="Scripts/profile-script.js" defer></script>
+
+
+
+
+    <body>
+
+            <div style="width:30%; position:absolute;  top: 100px; " >
+
+                    <header class="cheading" >
+                        <h1 class="ch1" >Learn more </h1>
+                      </header>
+                    
+                    </div>
+        <div style="margin-top:200px; margin-top:100px; border-radius:20px; padding-top: 40px; margin:150px 100px; background-color: #e6ba95;" class="boodCompatChart" >
+
+            <table style="width:80%; margin:auto" class="table table-striped table-bordered">
+                <tr>
+                    <thead>
+                        <th>Blood Type</th>
+                        <th>Donate Blood To</th>
+                        <th>Recieve Blood From</th>
+                    </thead>
+
+                </tr>
+                <tr>
+                    <td>A+</td>
+                    <td>A+ AB+</td>
+                    <td>A+ A- O+ O-</td>
+                </tr>
+                <tr>
+                    <td>A-</td>
+                    <td>A+ A- AB+ AB-</td>
+                    <td>A- O-</td>
+                </tr>
+                <tr>
+                    <td>B+</td>
+                    <td>B+ AB+</td>
+                    <td>B+ B- O+ O-</td>
+                </tr>
+                <tr>
+                    <td>B-</td>
+                    <td>B+ B- AB+ AB-</td>
+                    <td>B- O-</td>
+                </tr>
+                <tr>
+                    <td>AB+</td>
+                    <td>AB+</td>
+                    <td>Everyone</td>
+                </tr>
+                <tr>
+                    <td>AB-</td>
+                    <td>AB+ AB-</td>
+                    <td>AB- A- B- O-</td>
+                </tr>
+                <tr>
+                    <td>O+</td>
+                    <td>O+ A+ B+ AB+</td>
+                    <td>O+ O-</td>
+                </tr>
+                <tr>
+                    <td>O-</td>
+                    <td>Everyone</td>
+                    <td>O-</td>
+                </tr>
+            </table>
+        </div>
+
+
+
+        <div style="width:80%; color: #e6ba95; margin:auto" class=" donationTypeInfoWindow text-center">
+            <header class="typeHeading">
+                <h1 style=" margin-top:200px; margin-bottom:20px; font-size:3.5rem;" >Types of donation</h1>
+            </header>
+            <!-- /Header -->
+
+            <!-- Content -->
+            <div  class="content">
+                <p style="text-align: center;">The human body contains five liters of blood, which is made of several
+                    useful components i.e. <strong>Whole blood</strong>, <strong>Platelet</strong>, and
+                    <strong>Plasma</strong>.
+                </p>
+                <p style="text-align: center;">Each type of component has several medical uses and can be used for
+                    different medical treatments. your blood donation determines the best donation for you to make.</p>
+                <p style="text-align: center;">For <strong>plasma</strong> and <strong>platelet</strong> donation you
+                    must have donated whole blood in past two years.</p>
+
+            </div>
+            <br><br>
+            <!-- "Tabs" -->
+            <ul style="margin-left:500px; margin-bottom: 40px; font-size: 3rem; " class="nav  nav-tabs">
+
+                <li onclick="openInfo(event, 'wholeBlood')"  class=" infoLink active"><a
+                        href="javascript:void(0)">Whole Blood</a></li>
+                
+            </ul>
+
+<div class="infoc">
+            <div class="row tabInfo" id="wholeBlood" >
+                <div class=" ">
+
+                    <h3>What is it?</h3>
+
+                    <p>
+                        Blood Collected straight from the donor after its donation usually separated into red blood
+                        cells, platelets, and plasma.</p>
+
+                    <h3>Who can donate?</h3>
+
+                    <p>You need to be 18-65 years old, weigh 45kg or more and be fit and healthy.</p>
+
+
+                </div>
+                <div class=". infoContent">
+                    <h3>User For?</h3>
+
+                    <p>
+                        Stomach disease, kidney disease, childbirth, operations, blood loss, trauma, cancer, blood
+                        diseases, haemophilia, anemia, heart disease.</p>
+
+                    <h3>Lasts For?</h3>
+
+                    <p>Red cells can be stored for 42 days.</p>
+
+                </div>
+                <div class=" ">
+                    <h3>How long does it take?</h3>
+
+                    <p>
+                        15 minutes to donate.</p>
+
+                    <h3>How often can I donate?</h3>
+
+                    <p>Every 12 weeks</p>
+
+                </div>
+            </div>
+            <ul style="margin-left:500px; margin-bottom: 40px; font-size: 3rem; "  class="nav nav-tabs">
+
+               
+                <li onclick="openInfo(event, 'plasma')"  class=" infoLink"><a
+                        href="javascript:void(0)">Plasma</a></li>
+                
+            </ul>
+
+            <div class="row tabInfo"  id="plasma">
+                <div class=" ">
+
+                    <h3>What is it?</h3>
+
+                    <p>
+                        The straw-coloured liquid in which red blood cells, white blood cells, and platelets float
+                        in.Contains special nutrients which can be used to create 18 different type of medical products
+                        to treat many different medical conditions.</p>
+
+                    <h3>Who can donate?</h3>
+
+                    <p>You need to be 18-70 (men) or 20-70 (women) years old, weigh 50kg or more and must have given
+                        successful whole blood donation in last two years. </p>
+
+
+                </div>
+                <div class=" infoContent">
+                    <h3>User For?</h3>
+
+                    <p>
+                        Immune system conditions, pregnancy (including anti-D injections), bleeding, shock, burns,
+                        muscle and nerve conditions, haemophilia, immunisations.</p>
+
+                    <h3>Lasts For?</h3>
+
+                    <p>Plasma can last up to one year when frozen.</p>
+
+                </div>
+                <div class=" ">
+                    <h3>How does it work?</h3>
+
+                    <p>
+                        We collect your blood, keep plasma and return rest to you by apheresis donation.</p>
+
+                    <h3>How long does it take?</h3>
+
+                    <p>
+                        15 minutes to donate.</p>
+
+                    <h3>How often can I donate?</h3>
+
+                    <p>Every 2-3 weeks.</p>
+
+                </div>
+            </div>
+            <ul style="margin-left:500px; margin-bottom: 40px; font-size: 3rem; "  class="nav nav-tabs">
+
+              
+                <li onclick="openInfo(event, 'platelet')"  class=" infoLink"><a
+                        href="javascript:void(0)">Platelet</a></li>
+            </ul>
+
+            <div class="row tabInfo"  id="platelet">
+                <div class=" ">
+
+                    <h3>What is it?</h3>
+
+                    <p>
+                        The tiny 'plates' in blood that wedge together to help to clot and reduce bleeding. Always in
+                        high demand, Vital for people with low platelet count, like malaria and cancer patients.</p>
+
+                    <h3>Who can donate?</h3>
+
+                    <p>You need to be 18-70 years old (men), weigh 50kg or more and have given a successful plasma
+                        donation in the past 12 months</p>
+
+
+                </div>
+                <div class=" infoContent">
+                    <h3>User For?</h3>
+
+                    <p>
+                        Cancer, blood diseases, haemophilia, anaemia, heart disease, stomach disease, kidney disease,
+                        childbirth, operations, blood loss, trauma, burns.</p>
+
+                    <h3>Lasts For?</h3>
+
+                    <p>Just five days..</p>
+
+                </div>
+                <div class=" ">
+                    <h3>How does it work?</h3>
+
+                    <p>
+                        We collect your blood, keep platelet and return rest to you by apheresis donation.</p>
+
+                    <h3>How long does it take?</h3>
+
+                    <p>
+                        45 minutes to donate.</p>
+
+                    <h3>How often can I donate?</h3>
+
+                    <p>Every 2 weeks</p>
+
+                </div>
+            </div>
+            <br><br>
+        </div>
+    </div>
+
+
+
+
+    </body>
+
+
+
+    <link rel="stylesheet" href="css/learn-more-css.css">
+    
+
+
+    <script type="module" src="Scripts/appointment-script.js" defer></script>
+
+
+    <script src="/Scripts/index-script.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+
+    <%- include("partials/footer"); -%>
+

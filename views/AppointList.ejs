@@ -1,0 +1,50 @@
+<script type="module" src="Scripts/profile-script.js" defer></script>
+
+<%- include("partials/header"); -%>
+
+<div style="width:30%; position:absolute;  top: 100px; " >
+
+        <header class="cheading" >
+            <h1 class="ch1" >Appointment List </h1>
+          </header>
+        
+        </div>
+
+    
+    <br>
+
+    <div style="margin:100px auto;  border-radius:20px; padding-top: 40px; background-color: #e6ba95; max-width: 98%; " class="container">
+        <div style="width: 100%" class="row">
+            <div class="col-md-12">
+                <table id="dTable" class="table table-striped">
+                    <tr style="font-size:1.4rem; text-align: center;" > 
+                        <th>Appoinetment ID</th>
+                       <th>Name</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                        <th>Type</th>
+                        <th>Appoinetment Date</th>
+                        <th>Appoinetment Time</th>
+                        <th>BloodBank</th>
+                        <th>Appoinetment Status </th>
+                    </tr>
+                    
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        td {
+            font-size: 1rem;
+            text-align: center;
+            font-weight: 600;
+        }
+    </style>
+
+
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script type="module" src="Scripts/appointment-script.js" defer></script>
+    <script type="module" src="Scripts/AppointList.js" defer></script>
+
+    <script src="/Scripts/index-script.js"></script>

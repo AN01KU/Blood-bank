@@ -1,0 +1,63 @@
+a.animated-button.thar-one {
+  color: rgb(248, 232, 232);
+  cursor: pointer;
+  display: block;
+  position: relative;
+  border: 2px solid #f5f3ec;
+  transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}
+a.animated-button.thar-one:hover {
+  color: rgb(248, 64, 64) !important;
+  background-color: chocolate;
+  text-shadow: none;
+  border-radius: 20px;
+  transform: scale(1.2);
+}
+a.animated-button.thar-one:hover:before {
+  bottom: 0%;
+  top: auto;
+  height: 100%;
+  border-radius: 20px;
+}
+a.animated-button.thar-one:before {
+  display: block;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 0px;
+  width: 100%;
+  z-index: -1;
+  content: "";
+  color: #000 !important;
+  background: #f7ca18;
+  transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+  border-radius: 20px;
+}
+
+.thar-one1 {
+  left: -700px;
+  top: 450px;
+  height: 60px;
+  text-align: center;
+  font-size: 2rem;
+  padding: 20px;
+  padding-bottom: 50px;
+  padding-top: 10px;
+  color: rgb(252, 247, 247);
+  background-color: #3b3636;
+  border-radius: 20px;
+}
+.thar-one2 {
+  top: 150px;
+
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  font-size: 2rem;
+  border-radius: 10px;
+  margin-right: 50px;
+  background-color: #f82323;
+
+  left: 1px;
+  bottom: 10px;
+}

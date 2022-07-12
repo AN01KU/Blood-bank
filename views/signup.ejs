@@ -1,0 +1,217 @@
+<%- include("partials/header"); -%>
+<link rel="stylesheet" href="css/Signup-CSS.css" />
+<script src="Scripts/cities.js"></script>
+
+<div class="cdiv" style="width:30%; position:absolute;  top: 80px;  " >
+
+    <header class="cheading" >
+        <h1 class="ch1" >Register </h1>
+      </header>
+    
+    </div>
+
+
+    <section>
+           
+        <div style="margin-top:10px; max-width: 1000px; background-color:#F1DDBF; " class="container">
+            <form style="" method="POST">
+
+                <div id="s0"  class="" >
+                    <div class="wrapper">
+                        <div class="title">Select your option</div>
+                        <div  class="box">
+                          <input type="radio" name="select" id="option-1">
+                          <input type="radio" name="select" id="option-2">
+                          <label for="option-1" class="option-1">
+                            <div class="dot"></div>
+                            <div class="text">Register as User</div>
+                          </label>
+                          <label for="option-2" class="option-2">
+                            <div class="dot"></div>
+                            <div class="text">Register as Donar </div>
+                          </label>
+                         
+                        </div>
+                      </div>
+                      <div style="float: left;" id="gotoLogin">
+                          <a href="/login">Already have an account?</a>
+                      </div>
+                      <div>
+                            <button type="button" id="s0-btn" class="next-btn choice">Next</button> 
+                      </div>
+                </div>
+
+                <div id="s1" class="step step-1 ">
+                    <h1 class="title">Personal Details</h1>
+                    <div style="display:flex; ">
+                        <div class="form-group">
+                            <label  for="firstName">First Name</label>
+                            <input style="width:50%; margin-left: 40px;" type="text" name="firstName" id="firstName" />
+                        </div>
+                        <div class="form-group">
+                            <label for="lastName">Last Name</label>
+                            <input required  style="width:50%; margin-left: 15px;" type="text" name="lastName" id="lastName" />
+                        </div>
+                    </div>
+                    <div style="display:flex; ">
+                    <div class="form-group">
+                        <label for="phoneNumber">Phone Number</label>
+                        <input required  style="width:50%" type="number" name="phoneNumber" id="phoneNumber" />
+                    </div>
+                    <div class="form-group ">
+                        <label for="age">Age</label>
+                        <input required  style="width:50%; margin-left: 80px;" type="number" name="age" id="age" />
+                    </div>
+                    </div>
+                    <div style="display:flex; ">
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input required  style="width:50%; margin-left: 85px;" type="text" name="email" id="email" />
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input required  style="width:50%; margin-left: 30px;" type="password" name="password" id="password" />
+                    </div>
+                    </div>
+                    <div   class="form-group">
+                        
+                       <label for="">Choose Gender</label>
+                       <div style="margin-left:50px;" class="btn-group" role="group">
+                            <input type="radio" name="radio-Btn-Group" class="btn-check" id="radioBtn1">
+                            <label class="btn btn-outline-dark" for="radioBtn1">Male</label>
+                        
+                            <input type="radio" name="radio-Btn-Group" class="btn-check" id="radioBtn2">
+                            <label class="btn btn-outline-danger" for="radioBtn2">Female</label>
+                        
+                            <input type="radio" name="radio-Btn-Group" class="btn-check" id="radioBtn3">
+                            <label class="btn btn-outline-dark" for="radioBtn3">Others</label>
+                        </div>
+                       
+                    </div>
+                   
+
+
+                    <button style="margin-top:60px;" id="back" type="button" class="previous-btn">Prev</button>
+                    <button style="margin-top:60px; z-index: 10" type="button" class="next-btn">Next</button>
+                </div>
+
+                <div class="step step-2">
+                    <h1 class="title">Medical Details</h1>
+                    
+                    <div style="display:flex; " class="form-group">
+                        <label for="weight">Weight</label>
+                        <input type="number" style="width:100%; margin-left:60px; " name="weight" id="weight" />
+                    </div>
+                    <div style="display: flex;" class="form-group">
+                        <label for="height">Height</label>
+                        <input type="number" style="width:100%; margin-left:65px;  " name="height" id="height" />
+                    </div>
+                
+                    <div style="display:flex;" class="form-group">
+                        <label for="bloodType">Blood Type</label>
+                        <select required  style="margin-left:30px" name="bloodType" id="bloodType">
+                            <option value="A+">A+</option>
+                            <option value="A-">A-</option>
+                            <option value="B+">B+</option>
+                            <option value="B-">B-</option>
+                            <option value="AB+">AB+</option>
+                            <option value="AB-">AB-</option>
+                            <option value="O+">O+</option>
+                            <option value="O-">O-</option>
+                        </select>
+                    </div>
+                    <div style="display: flex;" class="form-group">
+                        <label for="allergies">Allergies</label>
+                        <input type="text" name="allergies" id="allergies" />
+                    </div>
+
+                    
+                    <div style="display: none; flex-direction: column;"" id="ifDonor" class="form-group">
+                        <label for="medicalCerti">Attach Medical Certificate:</label>
+                        <input required style=" margin:10px 0 20px 0; width:100%" type="file" id="medicalCerti" name="myFile">
+                    </div>
+                <button type="button" class="previous-btn">Prev</button>
+                <button type="button" class="next-btn">Next</button>
+        </div>
+
+        <div class="step step-3">
+            <h1 class="title">Address Details</h1>
+            <div class="form-group">
+                <label for="address">Address</label>
+                <input type="text" name="address" id="address" />
+            </div>
+            <div class="form-group">
+                <label for="state">State</label>
+                <select onchange="print_city('state', this.selectedIndex);" id="sts" name="stt"
+                    class="form-control" required></select>
+
+            </div> 
+             <div class="form-group">
+                   
+                <label for="city">City</label>                        
+                <select id="state" class="form-control" required></select>
+                <script language="javascript">print_state("sts");</script>
+            </div>
+            
+            <div class="form-group">
+
+                <label for="zip">Zip</label>
+                <input type="number" name="zip" id="zip" />
+
+            </div>
+
+            <button type="button" class="previous-btn">Prev</button>
+            <button type="submit" id="submit-btn" class="submit-btn">
+                Submit
+            </button>
+        </div>
+        </form>
+        </div>
+    </section>
+
+    <script type="module" src="Scripts/signup-script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" href="css/Signup-CSS.css" />
+
+
+    <script>
+    $(document).ready(function () {
+  console.log("test4");
+
+  $("#zip").keyup(function () {
+    var el = $(this);
+    console.log("test1");
+
+    if (el.val().length === 5) {
+      console.log("test2");
+
+      $.ajax({
+        url: "http://zip.elevenbasetwo.com",
+        cache: false,
+        dataType: "json",
+        type: "GET",
+        data: "zip=" + el.val(),
+        success: function (result, success) {
+          console.log("test3");
+
+          $("#city1").val(result.city);
+        }
+      });
+    }
+  });
+});</script>
+
+    <style>
+        .step-2 {
+            width: 50%;
+
+        }
+
+        .step-2 input {
+            margin-left: 50px;
+
+        }
+    </style>
+
+

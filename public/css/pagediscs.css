@@ -1,0 +1,21 @@
+.header {
+  position: absolute;
+  top: 0;
+  margin-top: 150px;
+  text-align: center;
+  width: 100%;
+}
+
+.header1 {
+  font-weight: 600;
+  font-size: 3.5rem;
+  text-align: start;
+  margin-left: 40px;
+}
+.header2 {
+  font-weight: 200;
+  font-size: 2rem;
+  text-align: start;
+  margin-left: 40px;
+  color: white;
+}

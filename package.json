@@ -1,0 +1,30 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "<h1>Blood bank Website via cloud computing</h1> <h3> In process of developing by Abhay and Ankush</h3> <h4>Currently working on main page<h4>",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbhaySingh20021/Blood-bank.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbhaySingh20021/Blood-bank/issues"
+  },
+  "homepage": "https://github.com/AbhaySingh20021/Blood-bank#readme",
+  "dependencies": {
+    "body-parser": "1.19.2",
+    "ejs": "3.1.6",
+    "express": "4.17.3",
+    "f": "1.4.0",
+    "fs": "0.0.1-security",
+    "nodemailer": "^6.7.3",
+    "nodemon": "2.0.15",
+    "npm-watch": "0.11.0",
+    "zipcodes": "^8.0.0"
+  }
+}

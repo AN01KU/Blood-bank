@@ -1,0 +1,36 @@
+<%- include("partials/header"); -%>
+
+
+
+
+
+
+<section>
+  <div style="margin:50px 0 0 50px;" ><h2 style="color: #e2dea9;
+    " >Google map for nearby donars  </h2></div>
+  <div style="margin:50px 0 0 50px;" class="divclass" > <span style="display:inline-flex" > <h1> City Name: &nbsp; &nbsp; </h1> <h1 id="city" >  </h1></span></div>
+
+<div style="height:600px; background-color:crimson; margin:200px auto;  width:800px" id="map">
+
+  
+</div>
+
+</section>
+
+
+<link rel="stylesheet" href="" />
+
+
+  
+
+  <script type="module" src="Scripts/maps.js"  defer></script>
+  <script
+  src="https://maps.googleapis.com/maps/api/js?libraries=geometry&key=AIzaSyD-Lfiyu_LEh2qgGRaZUW1YnLH_o7OAtvM&callback=initMap&v=weekly"
+  defer
+></script>
+  
+
+
+
+
+<%- include("partials/footer"); -%>

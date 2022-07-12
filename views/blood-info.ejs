@@ -1,0 +1,57 @@
+<%- include("partials/header"); -%>
+<script type="module" src="Scripts/blood-info.js"></script>
+
+
+
+
+<div style="width:30%; position:absolute;  top: 100px; " >
+
+    <header class="cheading" >
+        <h1 class="ch1" >Blood Bank Info </h1>
+      </header>
+    
+    </div>
+
+
+<div style="margin-top:200px;" class="bloodcard" >
+
+  
+
+   <% for (let index = 0; index < Object.keys(data).length; index++) {%>
+    <img class="imgd" src="https://img.icons8.com/dotty/80/000000/doctor-male.png"/>  
+
+<div class="card4" >
+  <form id="<%= data[index][0][0] %>" method="POST" action="/Appoint-ty">
+    <img style="float:left" src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/64/000000/external-blood-charity-kiranshastry-solid-kiranshastry.png"/>
+  
+      <h2 style="font-size:2rem; color: #6f0000;" > Blood Bank Details </h2>
+      <h3  > <label> Id: </label> <%= data[index][0][0] %></h3>
+      <h3 > <label> State: </label> <%= data[index][0][1] %></h3>
+      <h3  > <label> City: </label> <%= data[index][0][3] %></h3>
+      
+      <h3 class="name" id="<%= data[index][0][0] %>"  value="<%= data[index][0][4] %>" name="id" ><label >Name: </label> <%= data[index][0][4] %></h3>
+      <h3> <label> Address: </label> <%= data[index][0][5] %></h3>
+      <h3> <label> Phone Number: </label> <%= data[index][0][7] %></h3>
+      <% if ( data2 === "Appoint"){ %>
+        <button id="<%= data[index][0][4]  %> ,  <%= data[index][0][3]  %> ,  <%= data[index][0][1]  %> %>" class="btn btn-dark" type="submit">
+            Select Blood bank
+          </button>
+
+     <% } %>
+    </form>
+
+    </div>
+  
+    
+    <% }%>
+  
+ 
+
+ 
+</div>
+
+
+
+
+
+<%- include('partials/footer'); -%>

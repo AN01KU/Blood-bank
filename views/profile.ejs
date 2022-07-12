@@ -1,0 +1,149 @@
+<%- include("partials/header"); -%>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+
+<div style="width:30%; position:absolute;  top: 100px; " >
+
+    <header class="cheading" >
+        <h1 class="ch1" >Profile </h1>
+      </header>
+    
+    </div>
+
+
+  <div style="margin-top:150px;  background-color: #F1DDBF; color:black; font-weight: 600;  " class="container rounded  mt-6 mb-5">
+    <div  class="row">
+      <div class="col-md-3 border-right">
+        <div class="d-flex flex-column align-items-center text-center p-3 py-5">
+          <img class="rounded-circle mt-5" width="150px"
+            src="images/ee.png" /><span
+            id="profile-name" class="font-weight-bold">User name</span><span id="profile-email"
+            class="text-black-50"></span><span> </span>
+        </div>
+       
+      </div>
+      <div class="col-md-5 border-right">
+        <div class="p-3 py-5">
+          <div class="row mt-2">
+            <h3 style="font-size: 35px; color:#EE5007; text-decoration:underline; " >Personal Information</h3>
+            <div class="col-md-6">
+              <label class="labels">First Name</label><input type="text" id="firstName" class="form-control" value=""
+                disabled="true" />
+            </div>
+
+            <div class="col-md-6">
+              <label class="labels">Last Name</label><input type="text" id="lastName" class="form-control" value=""
+              disabled="true" />
+            </div>
+
+            <div class="col-md-6">
+              <label class="labels">Mobile Number</label><input type="text" id="phoneNumber" class="form-control"
+                value="" disabled="true" />
+            </div>
+
+            <div class="col-md-2">
+              <label class="labels">Age</label><input type="number" id="age" class="form-control" value="" disabled="true">
+            </div>
+
+            <div class="col-md-3">
+              <label class="labels">Gender</label><input type="text" id="gender" class="form-control" value="" disabled="true">
+            </div>
+
+            <div class="col-md-12">
+              <label class="labels">Email ID</label><input type="text" id="email" class="form-control" 
+                value="" disabled="true"/>
+            </div>
+          </div>
+          <div class="row mt-3">
+            <h3 style="font-size: 35px; color:#EE5007; text-decoration:underline; " >Address Information</h3>
+            <div class="col-md-12">
+              <label class="labels">Address</label><input type="text" id="address" class="form-control" disabled="true"
+                value="" />
+            </div>
+
+            <div class="col-md-4">
+              <label class="labels">City</label><input type="text" id="city" class="form-control" disabled="true" value="" />
+            </div>
+            <div class="col-md-5">
+              <label class="labels">Zip</label><input type="text" id="zip" class="form-control" disabled="true" value="" />
+            </div>
+            <div class="col-md-7">
+              <label class="labels">State</label><input type="text" id="state" class="form-control" disabled="true" value="" />
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <br />
+        <div class="row mt-3">
+          <h3 style="font-size: 35px; color:#EE5007; text-decoration:underline; " >Medical Information</h3>
+          <div class="col-md-12">
+            <label class="labels">Blood Group</label><input type="text" id="bloodGroup" class="form-control" disabled="true"
+              value="" />
+          </div>
+
+          <div class="col-md-6">
+            <label class="labels"></label>Weight<input type="text" class="form-control" id="weight" disabled="true" value="" />
+          </div>
+
+          <div class="col-md-6">
+            <label class="labels"></label>Height<input type="text" class="form-control" id="height" disabled="true" value="" />
+          </div>
+
+          <div class="col-md-6">
+            <label class="labels">Allergies</label><input type="text" class="form-control" id="allergies" value=""
+            disabled="true" />
+          </div>
+        </div>
+       
+        <div class="middle">
+          <div class="menu">
+              <ul>
+                  <li class="item" id="profile">
+                      <a href="#profile" class="btn"><i class="fa fa-user"></i> Profile</a>
+                      <div class="smenu">
+                          <a class="edit-btn" href="">Edit Profile</a>
+                          <a href="/donors">All donors</a> 
+                          <a href="/AppointList">Appointments</a>  
+              
+                          
+                      </div>
+                  </li>
+  
+                  <li class="item" id="messages">
+                      <a href="#messages" class="btn"><i class="fa fa-envelope"></i>Locate nearby</a>
+                      <div class="smenu">                         
+                          <a href="/locatebanks">Donors</a>      
+                                
+                      </div>
+                  </li>
+  
+                  <li class="item" id="settings">
+                      <a href="#settings" class="btn"><i class="fa fa-cog"></i> Settings</a>
+                      <div class="smenu">
+                          <a href="/forget">Password</a>
+                          
+                      </div>
+                  </li>
+  
+                  <li class="item">
+                      <a  href="#" class="btn logout-btn1  "><i class="fa fa-sign-out-alt"></i> Logout</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/profile.css" />
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.bundle.min.js"> -->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"> -->
+
+  <script type="module" src="Scripts/profile-script.js" defer></script>
+
+  <%- include("partials/footer"); -%>

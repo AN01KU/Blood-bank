@@ -1,0 +1,11 @@
+.row .tabInfo {
+  display: inline-flex;
+}
+.infoc {
+  margin-left: 30px;
+  margin-right: 0;
+}
+
+.tabInfo {
+  margin-bottom: 100px;
+}

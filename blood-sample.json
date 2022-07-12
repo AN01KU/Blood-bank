@@ -1,0 +1,236 @@
+{
+  "fields": [
+    {
+      "id": "a",
+      "label": "id",
+      "type": "string"
+    },
+    {
+      "id": "b",
+      "label": "state",
+      "type": "string"
+    },
+    {
+      "id": "c",
+      "label": "city",
+      "type": "string"
+    },
+    {
+      "id": "d",
+      "label": "district",
+      "type": "string"
+    },
+    {
+      "id": "e",
+      "label": "h_name",
+      "type": "string"
+    },
+    {
+      "id": "f",
+      "label": "address",
+      "type": "string"
+    },
+    {
+      "id": "g",
+      "label": "pincode",
+      "type": "string"
+    },
+    {
+      "id": "h",
+      "label": "contact",
+      "type": "string"
+    },
+    {
+      "id": "i",
+      "label": "helpline",
+      "type": "string"
+    },
+    {
+      "id": "j",
+      "label": "fax",
+      "type": "string"
+    },
+    {
+      "id": "k",
+      "label": "category",
+      "type": "string"
+    },
+    {
+      "id": "l",
+      "label": "website",
+      "type": "string"
+    },
+    {
+      "id": "m",
+      "label": "email",
+      "type": "string"
+    },
+    {
+      "id": "n",
+      "label": "blood_component",
+      "type": "string"
+    },
+    {
+      "id": "o",
+      "label": "blood_group",
+      "type": "string"
+    },
+    {
+      "id": "p",
+      "label": "service_time",
+      "type": "string"
+    },
+    {
+      "id": "q",
+      "label": "latitude",
+      "type": "string"
+    },
+    {
+      "id": "r",
+      "label": "longitude",
+      "type": "string"
+    }
+  ],
+  "data": [
+    [
+      "1",
+      "Andaman and Nicobar Islands",
+      "NA",
+      "Port Blair",
+      "G.B Pant Hospital",
+      "Atlanta Point",
+      "744104",
+      "03192 230628",
+      "NA",
+      "NA",
+      "NA",
+      "NA",
+      "NA",
+      "NA",
+      "NA",
+      "NA",
+      "11.675442",
+      "92.747338"
+    ],
+    [
+      "2",
+      "Andaman and Nicobar Islands",
+      "NA",
+      "Port Blair",
+      "I.N.H.S. Dhanvantri",
+      "Minni Bay",
+      "744103",
+      "03192 248759",
+      "NA",
+      "NA",
+      "NA",
+      "NA",
+      "NA",
+      "NA",
+      "NA",
+      "NA",
+      "NA",
+      "NA"
+    ],
+    [
+      "3",
+      "Andaman and Nicobar Islands",
+      "NA",
+      "Port Blair",
+      "Pillar Health Centre",
+      "Junglighat,Lamba Line, P.B. No.526",
+      "744103",
+      "03192 233193, 03192 233993",
+      "NA",
+      "NA",
+      "NA",
+      "NA",
+      "NA",
+      "NA",
+      "NA",
+      "NA",
+      "NA",
+      "NA"
+    ],
+    [
+      "4",
+      "Andhra Pradesh",
+      "Gudur",
+      "Nellore",
+      "A.P.Vidya Vidhana Parishad Community Hospital Blood Bank",
+      "Hospital Road",
+      "524101",
+      "08624 251804",
+      "NA",
+      "NA",
+      "NA",
+      "NA",
+      "NA",
+      "NA",
+      "NA",
+      "NA",
+      "NA",
+      "NA"
+    ],
+    [
+      "5",
+      "Andhra Pradesh",
+      "Bhimavaram",
+      "West Godavari",
+      "A.S.N. Raju Charitable Trust Blood Bank",
+      "Door No. 24-1-1, R.K. Plaza (Sarovar Complex), J.P. Road",
+      "NA",
+      "0886 222558",
+      "NA",
+      "NA",
+      "NA",
+      "NA",
+      "NA",
+      "NA",
+      "NA",
+      "NA",
+      "NA",
+      "NA"
+    ],
+    [
+      "6",
+      "Andhra Pradesh",
+      "Eluru",
+      "West Godavari",
+      "Alluri Sita Rama Raju Acadamy of Medical Sciences Blood Bank",
+      "Ground Floor, Hospital Block, NH5",
+      "NA",
+      "08812 244484",
+      "NA",
+      "NA",
+      "NA",
+      "http://asram.isram_hospitals/aboutus.php",
+      "NA",
+      "NA",
+      "NA",
+      "NA",
+      "NA",
+      "NA"
+    ],
+    [
+      "7",
+      "Andhra Pradesh",
+      "Visakhapatnam",
+      "Visakhapatnam",
+      "Anil Neerukunda Hospital Blood Bank",
+      "Sangi Valasa, Bheemunipatnam (M)",
+      "NA",
+      "08933 226961, 08933 226900",
+      "NA",
+      "NA",
+      "NA",
+      "NA",
+      "NA",
+      "NA",
+      "NA",
+      "NA",
+      "NA",
+      "NA"
+    ]
+  ]
+}
